@@ -1,0 +1,46 @@
+
+body{
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+
+    width: 20%;
+    margin: 0 auto 0 auto;
+
+}
+
+
+
+
+.top-container{
+    background-color: #3A98B9;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.bottom-container{
+
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+.nuvem-bot{
+    position: absolute;
+}
+
+.nuvem-top{
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
