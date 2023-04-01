@@ -3,16 +3,10 @@ body{
     margin: 0;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    background-color: #333;
     
 }
 
-h1{
-
-    width: 20%;
-    margin: 0 auto 0 auto;
-    font-family: 'Montserrat', sans-serif;
-    color: #8F43EE;
-}
 
 .navbar {
     position: fixed;
@@ -25,7 +19,7 @@ h1{
     z-index: 9999;
   }
   
-  /* Style the navigation links */
+  
   .navbar a {
     color: #8F43EE;
     text-decoration: none;
@@ -49,7 +43,8 @@ h1{
     background-position: center;
     background-size: cover;
     position: relative;
-    height: 500px;
+    width: 100vw; 
+    height: 100vh; 
     padding-top: 120px;
     padding-bottom: 0;
     
@@ -72,15 +67,84 @@ h1{
 
 .content-top{
 
+    position: relative;
+    top: 300px;
+    color: white;
+    
+    
+
+}
+
+.header{
+    position: relative;
+    top: 75px;
+    background: linear-gradient(to bottom right, white, grey);
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 100px;
+    text-align: center;
+    padding-bottom: 10px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
 }
 
 .middle-container{
+    width: 100vw; 
+    height: 170vh; 
+    padding-top: 0;
+    color: white;
+    
+
 
    
 }
 
-.bottom-container{
+.about-me{
 
+    padding-top: 50px;
+    position: relative;
+    left: 25%;
+    width: 50%;
+    
+
+}
+
+.info{
+    margin-top: 100px;
+    padding-left: 5px;
+    text-align: start;
+    font-size: 14px;
+}
+
+.links{
+    color: whitesmoke; 
+  text-decoration: none; 
+  font-weight: bold; 
+  
+}
+
+.links:hover{
+    color: red; 
+ 
+}
+
+.foto-perfil{
+    width: 30%;
+    display: block;
+    position: relative;
+    left: 35%;
+}
+
+.bottom-container{
+    position: relative;
+    display: inline-block;
+    width: 100vw; 
+    height: 100vh;
+    padding-top: 0;
+    color: white;
+    background-color: #8F43EE;
   
 }
 
