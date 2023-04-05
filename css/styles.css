@@ -39,6 +39,7 @@ body {
     background-size: cover;
     height: 100vh;
     justify-content: center;
+    margin: 0;
     position: relative;
     width: 100%;
 }
@@ -58,16 +59,18 @@ body {
     color: white;
     margin: 0;
     position: relative;
+    top: 60%;
     width: 100%;
 }
 
 .header {
-    
+
     background: linear-gradient(to bottom right, white, grey);
     font-family: 'Bebas Neue', cursive;
     font-size: 10vh;
     letter-spacing: 2px;
-    padding-bottom: 10px;
+    margin: 0;
+    padding-bottom: 10vh;
     position: relative;
     text-align: center;
     top: 75px;
@@ -75,11 +78,25 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
+p {
+    
+    margin: 0;
+
+}
+
+.header-info{
+    padding-top:5vh ;
+}
+
 .middle-container {
+    background-image: linear-gradient(to bottom, black, 1%, #222);
+    border-image-slice: 1;
     color: white;
     height: 100%;
     padding-top: 0;
+    padding-bottom: 5vh;
     width: 100%;
+
 }
 
 .about-me {
@@ -111,17 +128,134 @@ body {
     left: 35%;
     position: relative;
     width: 30%;
+    padding-bottom:10% ;
 }
 
-.bottom-container {
+
+.contato{
+    background-image: linear-gradient(to bottom, #222, 1%, #222);
+    border-image-slice: 1;
+    color: white;
+    height: 100%;
+    padding-top: 0;
+    padding-bottom: 5vh;
+    width: 100%;
+
+}
+
+.social{
+    background-image: linear-gradient(to bottom, #222, 5%, #8F43EE);
     background-color: #8F43EE;
     color: white;
     display: inline-block;
-    height: 100vh;
+    height: 100%;
     padding-top: 0;
     position: relative;
-    width: 100vw;
+    width: 100%;
 }
+.social a{
+    
+    display: inline-block;
+    width: 15%;
+    margin: 5%;
+    
+
+    
+
+}
+
+.social-icon{
+width: 100%;
+
+
+
+
+}
+
+form{
+    background-color: #3C3C3C;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(21,21,21,.2);
+    display: inline-block;
+    height: 100%;
+    padding: 40px;
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+    
+
+}
+
+
+
+form input{
+
+    width: 80%;
+    margin: 2vh;
+    height: 5vh;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: #222;
+    color: #F8EDE3;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(21,21,21,.2);
+   
+
+}
+form input::placeholder{
+
+    color: #f8ede38a;
+    font-family: 'Montserrat', sans-serif;
+   
+
+}
+
+form textarea{
+    width: 80%;
+    height: 25vh;
+    display: block;
+    border: none;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    background-color: #222;
+    resize: none;
+    color: #F8EDE3;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(21,21,21,.2);
+
+   
+}
+
+form button{
+
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(21,21,21,.2);
+    background-color: #ca502a;
+    width: 30vw;
+    height: 10vh;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+
+}
+
+form button:hover{
+    background-color: #8F43EE;
+
+}
+
+    
+
+
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {

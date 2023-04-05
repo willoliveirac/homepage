@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,6 +11,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Delicious+Handrawn&family=Montserrat&display=swap"
         rel="stylesheet">
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
     <title>Will Oliveira</title>
 
 </head>
@@ -30,8 +33,8 @@
 
         <div class="content-top">
             <h1 class="header">Will Oliveira</h1>
-            <p>Estudante de Ciência da Computação</p>
-            <p>Futuro de Desenvolvedor Fullstack</p>
+            <p class="header-info">Estudante de Ciência da Computação</p>
+            Futuro Desenvolvedor Fullstack</p>
 
         </div>
     </div>
@@ -77,41 +80,70 @@
             <p><a href="https://www.udemy.com/course/spring-hibernate-tutorial/" class="links">Spring & Hibernate for
                     Beginners (includes Spring Boot) pelo Professor Chad Darby </a> <br>
                 Janeiro 2023 - Em andamento</p>
-                <br>
+            <br>
 
             <h2>Habilidades</h2>
-            
+
             <p>
-            • Java 11 - Maven, SpringBoot, JPA, MYSQL, JDBC e API RESTful
-            Interesse principal em Java e suas possibilidades. Atualmente estudando em
-            cursos especializados na linguagem</p>
+                • Java 11 - Maven, SpringBoot, JPA, MYSQL, JDBC e API RESTful
+                Interesse principal em Java e suas possibilidades. Atualmente estudando em
+                cursos especializados na linguagem</p>
 
             <p>• Python - Intermediário
-            Utilização de Python em estudos e trabalhos acadêmicos
+                Utilização de Python em estudos e trabalhos acadêmicos
             </p>
 
             <p>• C# - Básico
-            Utilização de C# em projetos pessoais.</p>
-            
+                Utilização de C# em projetos pessoais.</p>
+
             <p>• Delphi - Basico Utilização em estudos para faculdade</p>
-            
-           
-           
-           <p> • HTM5L, CSS3 e Javascript e React - Intermediario
-            Criação de projetos pessoais e WebService</p>
+
+
+
+            <p> • HTM5L, CSS3 e Javascript e React - Intermediario
+                Criação de projetos pessoais e WebService</p>
 
         </div>
 
     </div>
 
-
-    <div class="bottom-container">
+    <div class="contato">
         <h1 class="header">Contato</h1>
+
+        <form>
+            <input type="text" id="nome" placeholder="Nome" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="text" id="Assunto" placeholder="Assunto" required>
+            <textarea id="message" rows="5"></textarea>
+            <button type="button" onclick="sendEmail()">Enviar</button>
+
+        </form>
+
+
+
+    </div>
+
+    <div class="social">
+
+        <h1 class="header">Social</h1>
+
+        <a href="https://www.linkedin.com/in/ilson-oliveira-1439201a3/"><img src="images/linkedin.png"
+                class="social-icon"></a>
+        <a href="https://github.com/willoliveirac"><img src="images/github.png" class="social-icon"></a>
+        <a href="https://www.instagram.com/will.oliveirac/"><img src="images/instagram.png" class="social-icon"></a>
+
+
+
     </div>
 
 
 
 
+    <script src="js/script.js"></script>
+
 </body>
+
+
+
 
 </html>
