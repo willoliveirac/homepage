@@ -62,8 +62,7 @@ body {
 }
 
 .header {
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    
     background: linear-gradient(to bottom right, white, grey);
     font-family: 'Bebas Neue', cursive;
     font-size: 10vh;
@@ -72,6 +71,8 @@ body {
     position: relative;
     text-align: center;
     top: 75px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .middle-container {
