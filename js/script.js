@@ -12,7 +12,7 @@ function sendEmail() {
         Body: "Nome: "+ document.getElementById("nome").value + " Email: "+document.getElementById("email").value+
         "\n" + "Mensagem: \n" + document.getElementById("message").value
     }).then(
-        message => alert(message)
+        message => alert("Mensagem enviada!")
     );
 
 }
